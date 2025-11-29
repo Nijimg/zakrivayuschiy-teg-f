@@ -9,3 +9,19 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+@keyframes like{
+    from{
+        scale: 1;
+    }
+    to{
+        scale: 1.25;
+    }
+}
+@keyframes sparks{
+    from{
+        --animation-fill-color: rgba(255, 0, 0, 0);
+    }
+    to{
+        --animation-fill-color: rgba(255, 0, 0, 1);
+    }
+}
