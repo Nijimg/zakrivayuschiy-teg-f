@@ -3,15 +3,16 @@
 --font-Inter: 'Inter-Variable';
 --font-Press-Start: 'Press Start';
 --font-Inter-title-weight: 715;
---font-Inter-text-weight: 410;
---bg-gradient1: repeating-linear-gradient(
+--font-Inter-text-weight: 100;
+--wdth: 200;
+--bg-gradient-g-lines: repeating-linear-gradient(
     to right,
     #d3d3d3 0,
     #d3d3d3 2px,
     transparent 2px,
     transparent 4px
 );
---bg-gradient2:
+--bg-gradient-v-lines:
     repeating-linear-gradient(
         to bottom,
         #d3d3d3 0,
@@ -19,7 +20,7 @@
         transparent 2px,
         transparent 4px
     );
---bg-gradient3: 
+--bg-gradient-gray: 
     linear-gradient(
     to bottom,
     #e7e7e7 0%,

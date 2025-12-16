@@ -15,20 +15,20 @@
   </head>
   <body class="page">
     <header class="header">
-      <article class="logo__group">
+      <div class="logo__group">
         <h1 class="header__title">&lt;/HTML&gt;</h1>
         <p class ="header__subtitle">Закрывающий тег</p>
-      </article>
+      </div>
     </header>
     <main class="content">
       <ul class="cards">
-        <li class="card item_1">
+        <li class="card no-filter">
             <article class="post__content">
               <h2 class="post__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
               <div class="post__image">
                 <img class="car__image" 
                 src="/images/image-1.png" 
-                alt="Фото поста 1" />
+                alt="Изображение машины" />
                 <label class="image__label">&lt;/HTML&gt;</label>
               </div>
               <div class="post__description">
@@ -37,8 +37,8 @@
                   <p class="text opinion__text">Место для ваших воспоминаний о начале обучения.</p>
                 </div>
                 <div class="buttons">
-                    <button class="card__icon-button ">
-                      <svg 
+                    <button class="card__icon-button" type="button">
+                      <svg aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg" 
                           width="39" 
                           height="36" 
@@ -64,16 +64,18 @@
                             d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
                       </svg>
                     </button>
-                        <button class="card__like-button"><span class="button__text">Like</span></button>
+                        <button class="card__like-button" type="submit"><span class="button__text">Like</span></button>
                 </div>
+              </div>
             </article>
         </li>
-        <li class="card item_2">
-          <article class="post__content"><h2 class="post__title">1 спринт: Я — чистый лист</h2>
+        <li class="card saturate-filter">
+          <article class="post__content">
+            <h2 class="post__title">1 спринт: Я — чистый лист</h2>
               <div class="post__image">
                 <img class="car__image" 
                 src="/images/image-1.png" 
-                alt="Фото поста 1" />
+                alt="Изображение машины" />
                 <label class="image__label">&lt;/HTML&gt;</label>
               </div>
               <div class="post__description">
@@ -82,8 +84,8 @@
                   <p class="text opinion__text">Место для ваших воспоминаний о начале первого спринта.</p>
                 </div>
                 <div class="buttons">
-                    <button class="card__icon-button ">
-                      <svg 
+                    <button class="card__icon-button" type="button">
+                      <svg aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg" 
                           width="39" 
                           height="36" 
@@ -109,14 +111,17 @@
                             d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
                       </svg> 
                     </button>
-                        <button class="card__like-button"><span class="button__text">Like</span></button>
-                </div></article></li>
-        <li class="card item_3">
+                        <button class="card__like-button" type="submit"><span class="button__text">Like</span></button>
+                </div>
+              </div>
+              </article>
+            </li>
+        <li class="card very-saturate-filter">
           <article class="post__content"><h2 class="post__title">1 спринт: А если не получится?</h2>
               <div class="post__image">
                 <img class="car__image" 
                 src="/images/image-1.png" 
-                alt="Фото поста 1" />
+                alt="Изображение машины" />
                 <label class="image__label">&lt;/HTML&gt;</label>
               </div>
               <div class="post__description">
@@ -125,8 +130,8 @@
                   <p class="text opinion__text">Место для ваших воспоминаний об окончании первого спринта.</p>
                 </div>
                 <div class="buttons">
-                    <button class="card__icon-button ">
-                        <svg 
+                    <button class="card__icon-button" type="button">
+                        <svg aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg" 
                           width="39" 
                           height="36" 
@@ -152,17 +157,18 @@
                             d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
                       </svg>
                     </button>
-                        <button class="card__like-button"><span class="button__text">Like</span></button>
+                        <button class="card__like-button" type="submit"><span class="button__text">Like</span></button>
                 </div>
+              </div>
               </article>
             </li>
-        <li class="card item_4">
+        <li class="card hue-filter">
           <article class="post__content">
             <h2 class="post__title">2 спринт: Погоня за идеалом</h2>
               <div class="post__image">
                 <img class="car__image" 
                 src="/images/image-1.png" 
-                alt="Фото поста 1" />
+                alt="Изображение машины" />
                 <label class="image__label">&lt;/HTML&gt;</label>
               </div>
               <div class="post__description">
@@ -171,8 +177,8 @@
                   <p class="text opinion__text">Место для ваших воспоминаний о начале второго спринта.</p>
                 </div>
                 <div class="buttons">
-                    <button class="card__icon-button ">
-                      <svg 
+                    <button class="card__icon-button" type="button">
+                      <svg aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg" 
                           width="39" 
                           height="36" 
@@ -198,17 +204,18 @@
                             d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
                       </svg>
                     </button>
-                        <button class="card__like-button"><span class="button__text">Like</span></button>
+                        <button class="card__like-button" type="submit"><span class="button__text">Like</span></button>
                 </div>
+              </div>
           </article>
         </li>
-        <li class="card item_5">
+        <li class="card invert-filter">
           <article class="post__content">
             <h2 class="post__title">2 спринт: О тех, кто рядом</h2>
               <div class="post__image">
                 <img class="car__image" 
                 src="/images/image-1.png" 
-                alt="Фото поста 1" />
+                alt="Изображение машины" />
                 <label class="image__label">&lt;/HTML&gt;</label>
               </div>
               <div class="post__description">
@@ -217,8 +224,8 @@
                   <p class="text opinion__text">Место для ваших воспоминаний об окончании второго спринта.</p>
                 </div>
                 <div class="buttons">
-                    <button class="card__icon-button ">
-                      <svg 
+                    <button class="card__icon-button" type="button">
+                      <svg aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg" 
                           width="39" 
                           height="36" 
@@ -244,70 +251,75 @@
                             d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
                       </svg>
                     </button>
-                        <button class="card__like-button"><span class="button__text">Like</span></button>
+                        <button class="card__like-button" type="submit"><span class="button__text">Like</span></button>
+                </div>
+              </div>
+          </article>
+        </li>
+        <li class="card sepia-filter">
+            <article class="post__content">
+            <h2 class="post__title">3 спринт: Обходные стратегии</h2>
+                <div class="post__image">
+                  <img class="car__image" 
+                  src="/images/image-1.png" 
+                  alt="Изображение машины" />
+                  <label class="image__label">&lt;/HTML&gt;</label>
+                </div>
+                <div class="post__description">
+                  <div class="post__description-text">
+                    <p class="text post__text">На этом курсе вы постоянно решали разные задачи. В какой-то момент вам могло показаться, что решения просто иссякли. Значит, пришло время посмотреть на задачу под другим углом.</p>
+                    <p class="text opinion__text">Место для ваших воспоминаний о начале третьего спринта.</p>
+                  </div>
+                  <div class="buttons">
+                      <button class="card__icon-button" type="button">
+                        <svg aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" 
+                            width="39" 
+                            height="36" 
+                            class="like-icon"
+                            fill="none">
+                          <g class="heart">
+                            <path 
+                              class="contour"
+                              fill="var(--heart__contour-color)" 
+                              d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z"/>
+                            <path 
+                              class="main-body"
+                              fill="transparent" 
+                              d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z"/>
+                            <path
+                              class="core"
+                              fill="transparent" 
+                              d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z"/>
+                          </g>
+                            <path
+                              class="sparks"
+                              fill="var(--animation-fill-color)" 
+                              d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
+                        </svg>
+                      </button>
+                          <button class="card__like-button" type="submit"><span class="button__text">Like</span></button>
+                  </div>
                 </div>
           </article>
         </li>
-        <li class="card item_6"><article class="post__content">
-          <h2 class="post__title">3 спринт: Обходные стратегии</h2>
-              <div class="post__image">
-                <img class="car__image" 
-                src="/images/image-1.png" 
-                alt="Фото поста 1" />
-                <label class="image__label">&lt;/HTML&gt;</label>
-              </div>
-              <div class="post__description">
-                <div class="post__description-text">
-                  <p class="text post__text">На этом курсе вы постоянно решали разные задачи. В какой-то момент вам могло показаться, что решения просто иссякли. Значит, пришло время посмотреть на задачу под другим углом.</p>
-                  <p class="text opinion__text">Место для ваших воспоминаний о начале третьего спринта.</p>
-                </div>
-                <div class="buttons">
-                    <button class="card__icon-button ">
-                      <svg 
-                          xmlns="http://www.w3.org/2000/svg" 
-                          width="39" 
-                          height="36" 
-                          class="like-icon"
-                          fill="none">
-                        <g class="heart">
-                          <path 
-                            class="contour"
-                            fill="var(--heart__contour-color)" 
-                            d="M12 6H9v3h3V6Zm3 0h-3v3h3V6ZM9 9H6v3h3V9Zm0 3H6v3h3v-3Zm0 3H6v3h3v-3Zm9-9h-3v3h3V6Zm-6 12H9v3h3v-3Zm3 3h-3v3h3v-3Zm3 3h-3v3h3v-3Zm9-18h3v3h-3V6Zm-3 0h3v3h-3V6Zm6 3h3v3h-3V9Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V6Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0-18h-3v3h3V9Z"/>
-                          <path 
-                            class="main-body"
-                            fill="transparent" 
-                            d="M12 9H9v3h3V9Zm3 3h-3v3h3v-3Zm3-3h-3v3h3V9Zm-6 6H9v3h3v-3Zm3 0h-3v3h3v-3Zm0 3h-3v3h3v-3Zm3-6h-3v3h3v-3Zm0 9h-3v3h3v-3Zm0-3h-3v3h3v-3Zm9-9h3v3h-3V9Zm-3 0h3v3h-3V9Zm3 3h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm-3-3h3v3h-3V9Zm6 6h3v3h-3v-3Zm-3 0h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-3-6h3v3h-3v-3Zm0 9h3v3h-3v-3Zm0-3h3v3h-3v-3Zm0 3h-3v3h3v-3Zm0 3h-3v3h3v-3Z"/>
-                          <path
-                            class="core"
-                            fill="transparent" 
-                            d="M18 15h-3v3h3v-3Zm3 0h3v3h-3v-3Zm0 0h-3v3h3v-3Zm0-3h-3v3h3v-3Zm0 6h-3v3h3v-3Z"/>
-                        </g>
-                          <path
-                            class="sparks"
-                            fill="var(--animation-fill-color)" 
-                            d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
-                      </svg>
-                    </button>
-                        <button class="card__like-button"><span class="button__text">Like</span></button>
-                </div>
-        </article></li>
-        <li class="card item_7"><article class="post__content">
+        <li class="card blur-filter">
+          <article class="post__content">
           <h2 class="post__title">3 спринт: Когда опускаются руки</h2>
               <div class="post__image">
                 <img class="car__image" 
                 src="/images/image-1.png" 
-                alt="Фото поста 1" />
+                alt="Изображение машины" />
                 <label class="image__label">&lt;/HTML&gt;</label>
               </div>
               <div class="post__description">
                 <div class="post__description-text">
-                  <p class="text post__text">Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься. Вроде и проектную пора сдавать, и задачи хочется порешать, и в теории получше разобраться, и жизнь не забыть пожить. В такие моменты очень нужна концентрация. Вспомните, откуда вы её </br> черпали.</p>
+                  <p class="text post__text">Во время учёбы часто возникает чувство, когда не знаешь, за что хвататься. Вроде и проектную пора сдавать, и задачи хочется порешать, и в теории получше разобраться, и жизнь не забыть пожить. В такие моменты очень нужна концентрация. Вспомните, откуда вы её черпали. </p>
                   <p class="text opinion__text">Место для ваших воспоминаний об окончании третьего спринта.</p>
                 </div>
                 <div class="buttons">
-                    <button class="card__icon-button ">
-                      <svg 
+                    <button class="card__icon-button" type="button">
+                      <svg aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg" 
                           width="39" 
                           height="36" 
@@ -333,17 +345,18 @@
                             d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
                       </svg>
                     </button>
-                        <button class="card__like-button"><span class="button__text">Like</span></button>
+                        <button class="card__like-button" type="submit"><span class="button__text">Like</span></button>
                 </div>
+              </div>
         </article>
         </li>
-        <li class="card item_8">
+        <li class="card all-filters">
           <article class="post__content">
             <h2 class="post__title">«Сейчас я здесь»</h2>
               <div class="post__image">
                 <img class="car__image" 
                 src="/images/image-1.png" 
-                alt="Фото поста 1" />
+                alt="Изображение машины" />
                 <label class="image__label">&lt;/HTML&gt;</label>
               </div>
               <div class="post__description">
@@ -352,8 +365,8 @@
                   <p class="text opinion__text">Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.</p>
                 </div>
                 <div class="buttons">
-                    <button class="card__icon-button ">
-                      <svg 
+                    <button class="card__icon-button" type="button">
+                      <svg aria-hidden="true" 
                           xmlns="http://www.w3.org/2000/svg" 
                           width="39" 
                           height="36" 
@@ -379,29 +392,29 @@
                             d="M36 13h3v3h-3v-3Zm-9 14h3v3h-3v-3Zm-9 6h3v3h-3v-3Zm-9-6h3v3H9v-3ZM24 0h3v3h-3V0Zm9 3h3v3h-3V3ZM3 3h3v3H3V3Zm9-3h3v3h-3V0ZM0 13h3v3H0v-3Z"/>
                       </svg>
                     </button>
-                        <button class="card__like-button"><span class="button__text">Like</span></button>
+                        <button class="card__like-button" type="submit"><span class="button__text">Like</span></button>
                 </div>
+              </div>
           </article>
         </li>
       </ul>
-    </main>
-    <footer class="footer">
-      <button 
+        <button 
         type="button"
         class="save__for popup__open-button"
         onclick="window['floppy-dialog'].showModal()"
         >
         <svg viewBox="0 0 21 21">
-          <use href="#floppy" fill="currentColor"></use>/>
+          <use href="#floppy" fill="currentColor"></use>
         </svg>
         <span class="button__text">
           Сохранить на память
         </span>
       </button>
-    </footer>
+      </main>
     <script src="./scripts/like.js"></script>
   </body>
-  <dialog class="popup" id="floppy-dialog">
+  <dialog class="popup" 
+          id="floppy-dialog">
     <div class="popup__content">
       <svg viewBox="0 0 21 21">
         <use href="#floppy"/>
@@ -420,7 +433,9 @@
   </dialog>
 </html>
 
-<svg 
+<svg  
+  aria-hidden="true" 
+  style="display: none;"
   xmlns="http://www.w3.org/2000/svg" 
 >
   <symbol  id="floppy"
