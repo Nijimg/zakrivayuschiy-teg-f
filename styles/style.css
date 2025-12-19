@@ -12,6 +12,7 @@
 
 .page {
   margin-top: 98px; 
+  margin-bottom: 100px;
   background-color: var(--bg-color);
   display: flex;  
   flex-direction: column;
@@ -74,9 +75,9 @@
   max-block-size: 30px;
   padding: 6px 10px;
   font-family: var(--font-Inter), sans-serif;
-  font-variation-settings: 'wght' 715, 'wdth' var(--wdth);
   font-size: 18px;
   vertical-align: middle;
+  font-variation-settings: 'wght' var(--font-Inter-title-weight);
 }
 .car__image {
   inline-size: 100%;
@@ -110,12 +111,11 @@
 }
 .post__description-text{  
   padding-top: 1px;
-  font-stretch: expanded;
   display: flex;
   flex-direction: column;
   row-gap: var(--smallpx);
   font-family: var(--font-Inter), sans-serif;
-  font-weight: 410;
+  font-variation-settings: 'wght' var(--font-Inter-text-weight);
   font-size: 18px;
   line-height: 21px;
   margin-bottom: 24px;
@@ -229,7 +229,7 @@ button{
   transition: box-shadow 0.3s ease;
   transition: border 0.3s ease;
 }
-button:not(.card__icon-button):focus{
+button:has(.button__text):focus{
   outline: none;
   box-shadow: 2px 2px 0 0 var(--func-color);
 }
